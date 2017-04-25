@@ -19,7 +19,7 @@ edit, rearrange, add remove in `_layouts/default.html`
 
 Projects are in `/_posts`
 
-Images are in `/img/portfolio`
+Images are in `/img/projects`
 
 
 ### About
