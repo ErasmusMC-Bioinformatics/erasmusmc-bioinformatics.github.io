@@ -64,6 +64,25 @@ people:
     - title: google-plus
       url: #
 
+
+
+# publications
+publications:
+- name: ega
+  title: Integration of EGA secure data access into Galaxy
+  journal: F1000 Research
+  url: https://f1000research.com/articles/5-2841
+  year: 2016
+  month: December
+  day: 16
+  abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data. Each data provider is responsible for ensuring a Data Access Committee is in place to grant access to data stored in the EGA. Moreover, the transfer of data during upload and download is encrypted. ELIXIR, a European research infrastructure for life-science data, initiated a project (2016 Human Data Implementation Study) to understand and document the ELIXIR requirements for secure management of controlled-access data.
+
+- title: FuMa reporting overlap in RNA-seq detected fusion genes
+  journal: Bioinformatics
+  url: https://doi.org/10.1093/bioinformatics/btv721
+  name: fuma
+  abstract: blablabla
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
