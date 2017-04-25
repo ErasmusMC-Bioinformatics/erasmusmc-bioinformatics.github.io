@@ -2,6 +2,7 @@
 
 ## How to edit
 
+icons: [fontawesome](http://fontawesome.io/icons/)
 
 ### Viewing changes locally
 
