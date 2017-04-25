@@ -1,1 +1,84 @@
-theme: jekyll-theme-hacker
+url: https://ErasmusMC-Bioinformatics.github.io
+baseurl: /Translational-Bioinformatics
+
+# Site settings
+title: ErasmusMC Bioinformatics
+email: a.stubbs@erasmusmc.nl
+description: "Erasmus Medical Center Bioinformatcs Department"
+
+# Team names, titles and social links
+people:
+- name: Andrew Stubbs
+  pic: andrew
+  position: Assistent Professor
+  social:
+    - title: mail
+      url: a.stubbs@erasmsumc.nl
+    - title: linkedin
+      url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
+    - title: github
+      url: https://github.com/Andrew-EMC
+
+- name: Bas Horsman
+  pic: bas
+  position: Developer
+  social:
+    - title: github
+      url: https://github.com/shorsman
+    - title: linkedin
+      url: https://www.linkedin.com/in/bas-horsman-7370492/
+
+- name: David van Zessen
+  pic: david
+  position: Developer
+  social:
+    - title: github
+      url: https://github.com/davidvanzessen
+
+- name: Saskia Hiltemann
+  pic: saskia
+  position: PhD student
+  social:
+    - title: github
+      url: https://github.com/shiltemann
+    - title: linkedin
+      url: https://www.linkedin.com/in/shiltemann/
+    - title: twitter
+      url: https://twitter.com/shiltemann
+
+- name: Youri Hoogstrate
+  pic: youri
+  position: PhD student
+  social:
+    - title: github
+      url: https://github.com/yhooogstrate
+
+- name: Yunlei Li
+  pic: yunlei
+  position: Post-Doc
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/orgs/ErasmusMC-Bioinformatics
+  - title: twitter
+    url: https://twitter.com/ErasmusMC
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Faculty Building
+  - line: Room Ee15.79
+  - line: Wytemaweg 80
+  - line: 3015CN Rotterdam
+  - line: The Netherlands
+
+# Build settings
+markdown: kramdown
+permalink: pretty
