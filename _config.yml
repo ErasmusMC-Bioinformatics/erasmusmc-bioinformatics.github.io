@@ -174,6 +174,37 @@ collaborations:
 - name: dtl
   logo: dtl.jpg
 
+### Contact
+contact-options:
+- header: Visiting Address
+  text:
+    - line: Faculty Building
+    - line: Room Ee15.79
+    - line: Wytemaweg 80
+    - line: 3015CN Rotterdam
+    - line: The Netherlands
+  links:
+    - description: Route and Parking
+      url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en
+
+- header: Mailing Address
+  text:
+    - line: PO Box 2040
+    - line: 3000 CA Rotterdam
+    - line: The Netherlands
+
+- header: E-mail us
+  links:
+    - description: bioinformatics@erasmusmc.nl
+      url: mailto:bioinformatics@erasmusmc.nl
+    - description: a.stubbs@erasmusmc.nl
+      url: mailto:a.stubbs@erasmusmc.nl
+
+- header: Call us
+  text:
+    - line: "Phone: +31 10 7043 491"
+    - line: "Fax: +31 10 7044 161"
+
 ### Footer
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -183,12 +214,8 @@ social:
     url: https://twitter.com/ErasmusMC
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Faculty Building
-  - line: Room Ee15.79
-  - line: Wytemaweg 80
-  - line: 3015CN Rotterdam
-  - line: The Netherlands
+
+
 
 
 ### Build settings

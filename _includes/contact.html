@@ -6,41 +6,24 @@
                     <!--<h3 class="section-subheading text-muted">If you are interested in one of our services or starting a collaboration</h3>-->
                 </div>
             </div>
+
+            {% for c in site.contact-options %}
             <div class="row">
                 <div class="text-center" style="color:white">
-                    <h4>Visiting Address</h4>
-                    Faculty Building </br>
-                    Room Ee15.79     </br>
-                    Wytemaweg 80     </br>
-                    3015CN Rotterdam </br>
-                    The Netherlands  </br>
-                    <a href"https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en">Route and Parking</a></br>
+                    <h4>{{ c.header }}</h4>
+
+                    {% for l in c.text %}
+                    {{ l.line }} </br>
+                    {% endfor %}
+
+                    {% for l in c.links %}
+                    <a href"{{ l.url }}">{{ l.description }}</a></br>
+                    {% endfor %}
+
                     </br>
                 </div>
             </div>
-            <div class="row">
-                <div class="text-center" style="color:white">
-                    <h4>MAiling Address</h4>
-                    PO Box 2040        </br>
-                    3000 CA Rotterdam  </br>
-                    The Netherlands    </br>
-                    </br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="text-center" style="color:white">
-                    <h4>Mail Us</h4>
-                    <a href="mailto:bioinformatics@erasmusmc.nl"> bioinformatics@erasmusmc.nl </a></br>
-                    <a href="mailto:a.stubbs@erasmusmc.nl"> a.stubbs@erasmusmc.nl </a></br>
-                    </br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="text-center" style="color:white">
-                    <h4>Call Us</h4>
-                    Phone: 	+31 10 7043 491 </br>
-                    Fax: 	+31 10 7044 161 </br>
-                </div>
-            </div>
+            {% endfor %}
+
         </div>
     </section>
