@@ -1,5 +1,5 @@
 url: https://ErasmusMC-Bioinformatics.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: ErasmusMC Bioinformatics
@@ -9,7 +9,7 @@ description: "Erasmus Medical Center Bioinformatcs Department"
 # Team names, titles and social links
 people:
 - name: Andrew Stubbs
-  pic: andrew
+  pic: andrew.jpg
   position: Assistent Professor
   social:
     - title: mail
@@ -20,7 +20,7 @@ people:
       url: https://github.com/Andrew-EMC
 
 - name: Bas Horsman
-  pic: bas
+  pic: bas.jpg
   position: Developer
   social:
     - title: github
@@ -29,14 +29,14 @@ people:
       url: https://www.linkedin.com/in/bas-horsman-7370492/
 
 - name: David van Zessen
-  pic: david
+  pic: david.jpg
   position: Developer
   social:
     - title: github
       url: https://github.com/davidvanzessen
 
 - name: Saskia Hiltemann
-  pic: saskia
+  pic: saskia.jpg
   position: PhD student
   social:
     - title: github
@@ -47,14 +47,14 @@ people:
       url: https://twitter.com/shiltemann
 
 - name: Youri Hoogstrate
-  pic: youri
+  pic: youri.jpg
   position: PhD student
   social:
     - title: github
       url: https://github.com/yhooogstrate
 
 - name: Yunlei Li
-  pic: yunlei
+  pic: yunlei.jpg
   position: Post-Doc
   social:
     - title: twitter
@@ -66,21 +66,22 @@ people:
 
 
 
-# publications
+# Publications
+# these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 publications:
-- name: ega
-  title: Integration of EGA secure data access into Galaxy
+- title: Integration of EGA secure data access into Galaxy
   journal: F1000 Research
   url: https://f1000research.com/articles/5-2841
   year: 2016
   month: December
   day: 16
+  pic: ega.png
   abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data. Each data provider is responsible for ensuring a Data Access Committee is in place to grant access to data stored in the EGA. Moreover, the transfer of data during upload and download is encrypted. ELIXIR, a European research infrastructure for life-science data, initiated a project (2016 Human Data Implementation Study) to understand and document the ELIXIR requirements for secure management of controlled-access data.
 
 - title: FuMa reporting overlap in RNA-seq detected fusion genes
   journal: Bioinformatics
   url: https://doi.org/10.1093/bioinformatics/btv721
-  name: fuma
+  pic: fuma.png
   abstract: blablabla
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

@@ -16,7 +16,7 @@
                         {% capture cycle %}{% cycle 'even', 'odd' %}{% endcapture %}
                         <li {% if cycle == 'odd' %} class="timeline-inverted" {% endif %} >
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/publications/{{ pub.name }}.png" alt="">
+                                <img class="img-circle img-responsive" src="img/publications/{{ pub.pic }}" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -24,6 +24,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>
+                                    {{ pub.day }} {{ pub.month }} {{ pub.year }} <br>
                                      <a href="{{ pub.url }}"> {{ pub.journal }} </a> <br>
                                     </p>
                                     <p class="text-muted">

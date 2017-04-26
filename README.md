@@ -2,13 +2,13 @@
 
 ## How to edit
 
-icons: [fontawesome](http://fontawesome.io/icons/)
-
 ### Previewing changes locally
 
 install jekyll, clone this repo, and run `jekyll serve` from its root folder
 
-open `http://localhost:4000` in your browser
+open `http://localhost:4000` in your browser to preview your changes.
+
+Once you are happy, push changes back to the repo and github will automatically rebuild the site
 
 ### Sections
 
@@ -24,33 +24,33 @@ The naming convention of these files is important, and must follow the format: `
 
 ### Publications
 
-Add to the list in `_config.yml`. Images should be placed in `/img/publications/` and named with the `name attribute` like `ega.png` and `fuma.png` for the examples below
+- Add new publications to the list in `_config.yml`.
+- Publications will be rendered in the order the appear in this file, please put them in in chronological order, with the newest at the top
+- Images should be placed in `/img/publications/` and named with the `pic` attribute, e.g. `img/publications/ega.png` for the example below
+- Use square images for best results
+- Possible attributes: pic, title, journal, url, day, month, year, abstract
+- Keep the abstract short (first couple sentences of full abstract or a custom description of paper); a `read more` link to the full article will be generated after this text.
 
 ```yaml
 publications:
-- name: ega
-  title: Integration of EGA secure data access into Galaxy
+- title: Integration of EGA secure data access into Galaxy
+  pic: ega.png
   journal: F1000 Research
   url: https://f1000research.com/articles/5-2841
   abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data.
-
-- name: fuma
-  title: FuMa reporting overlap in RNA-seq detected fusion genes
-  journal: Bioinformatics
-  url: https://doi.org/10.1093/bioinformatics/btv721
-  abstract: blablabla
 ```
 
-### Team
+### Team Members
 
-Team members are listed in `_config.yml` Corresponding images should be placed in `/img/team/` and named with the `pic` attribute and jpg extension,
-so `inmg/team/andrew.jpg` in the following example
+- Team members are listed in `_config.yml`
+- Corresponding images should be placed in `/img/team/` and named with the `pic` attribute so `img/team/andrew.jpg` in the following example
+- Use square image for the best results
 
 ```yaml
 people:
 - name: Andrew Stubbs
-  pic: andrew
-  position: Assistent Professor
+  pic: andrew.jpg
+  position: Dear Leader
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
@@ -58,6 +58,9 @@ people:
       url: https://github.com/Andrew-EMC
 ```
 
+### Misc
+
+icons: [fontawesome](http://fontawesome.io/icons/)
 
 #### Credit
 Theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
