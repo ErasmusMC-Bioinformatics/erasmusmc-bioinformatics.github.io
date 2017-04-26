@@ -16,6 +16,20 @@ Edit, rearrange, add, or remove in `_layouts/default.html`
 
 ### Services
 
+- Add services to `_config.yml`.
+- Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
+
+```yaml
+services:
+- name: Galaxy
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  icon: star
+
+- name: FAIR data
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  icon: laptop
+ ```
+
 ### Projects
 
 Project descriptions are in `/_posts` (Images are in `/img/projects`)
@@ -58,9 +72,19 @@ people:
       url: https://github.com/Andrew-EMC
 ```
 
-### Misc
+### Collaborations
 
-icons: [fontawesome](http://fontawesome.io/icons/)
+This generates a bar of logos of collaborators. Logos should be placed in `img/logos`
+
+
+```yaml
+collaborations:
+- name: elixir
+  logo: elixir.png
+
+- name: dtl
+  logo: dtl.png
+```
 
 #### Credit
 Theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
