@@ -102,62 +102,67 @@ team-header: Our Amazing Team
 team-tagline: Lorem ipsum dolor sit amet consectetur.
 team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
+# title should correspond with fontaswesome icon
 people:
 - name: Andrew Stubbs
   pic: andrew.jpg
   position: Assistent Professor
-  social:
-    - title: mail
-      url: a.stubbs@erasmsumc.nl
-    - title: linkedin
+  contact:
+    - icon: envelope
+      url: mailto:a.stubbs@erasmsumc.nl
+    - icon: linkedin
       url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
-    - title: github
+    - icon: github
       url: https://github.com/Andrew-EMC
 
 - name: Bas Horsman
   pic: bas.jpg
   position: Developer
-  social:
-    - title: github
+  contact:
+    - icon: envelope
+      url: mailto:s.horsman@erasmsumc.nl
+    - icon: github
       url: https://github.com/shorsman
-    - title: linkedin
+    - icon: linkedin
       url: https://www.linkedin.com/in/bas-horsman-7370492/
 
 - name: David van Zessen
   pic: david.jpg
   position: Developer
-  social:
-    - title: github
+  contact:
+    - icon: envelope
+      url: mailto:d.vanzessen@erasmsumc.nl
+    - icon: github
       url: https://github.com/davidvanzessen
 
 - name: Saskia Hiltemann
   pic: saskia.jpg
   position: PhD student
-  social:
-    - title: github
+  contact:
+    - icon: envelope
+      url: mailto:zazkia@gmail.com
+    - icon: github
       url: https://github.com/shiltemann
-    - title: linkedin
+    - icon: linkedin
       url: https://www.linkedin.com/in/shiltemann/
-    - title: twitter
+    - icon: twitter
       url: https://twitter.com/shiltemann
 
 - name: Youri Hoogstrate
   pic: youri.jpg
   position: PhD student
-  social:
-    - title: github
+  contact:
+    - icon: envelope
+      url: mailto:y.hoogstrate@erasmsumc.nl
+    - icon: github
       url: https://github.com/yhooogstrate
 
 - name: Yunlei Li
   pic: yunlei.jpg
   position: Post-Doc
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  contact:
+    - icon: envelope
+      url: mailto:y.li1@erasmsumc.nl
 
 
 ### Collaborations
