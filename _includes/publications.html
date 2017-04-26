@@ -24,45 +24,30 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>
-                                    {{ pub.day }} {{ pub.month }} {{ pub.year }} <br>
-                                     <a href="{{ pub.url }}"> {{ pub.journal }} </a> <br>
+
+                                    {% if pub.year %}
+                                        {{ pub.day }} {{ pub.month }} {{ pub.year }} <br>
+                                    {% endif %}
+
+                                    {% if pub.journal %}
+                                        <a href="{{ pub.url }}"> {{ pub.journal }} </a> <br>
+                                    {% endif %}
+
                                     </p>
                                     <p class="text-muted">
-                                    {{ pub.abstract }}
-                                    </br>
+                                    {% if pub.abstract %}
+                                        {{ pub.abstract }} <br>
+                                    {% endif %}
+                                    
+                                    {% if pub.url %}
                                     <a href="{{ pub.url }}"> READ MORE </a>
+                                    {% endif %}
                                     </p>
                                 </div>
                             </div>
                         </li>
                         {% endfor %}
 
-
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/publications/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2003</h4>
-                                    <h4 class="subheading">A Department is born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        In 2003, Erasmus MC took the first steps in order to establish a Center for Bioinformatics. Located in the heart of the
-                                        biomedical research activities of Erasmus MC, this high-tech bioinformatics department is
-                                        equipped with a state of the art hard- and software. In collaboration with other departments the center’s multidisciplinary
-                                        team supports projects that generate genetics, genomics and proteomics data from basic research, forensics studies, molecular
-                                        diagnostics and clinical trials.
-                                        </br></br>
-                                        The center also runs a research program of its own, which provides the biological and technological basis of all the other
-                                        activities. The research focuses on the way the genome as a whole contributes to the evolution, development, structure and
-                                        function of the brain. It involves analysis of gene expression in cells of the brain and combines genomics, proteomics and
-                                        cytogenetic data to identify genes associated with neurological disorders or craniofacial and extremity malformations.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>Be Part

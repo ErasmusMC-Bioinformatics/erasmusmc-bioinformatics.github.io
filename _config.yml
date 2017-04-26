@@ -81,8 +81,34 @@ publications:
 - title: FuMa reporting overlap in RNA-seq detected fusion genes
   journal: Bioinformatics
   url: https://doi.org/10.1093/bioinformatics/btv721
+  year: 2015
+  month: December
+  day: 10
   pic: fuma.png
-  abstract: blablabla
+  abstract: A new generation of tools that identify fusion genes in RNA-seq data is limited in either sensitivity and or specificity. To allow further downstream analysis and to estimate performance, predicted fusion genes from different tools have to be compared. However, the transcriptomic con-text complicates genomic location-based matching. FusionMatcher (FuMa) is a program that reports identical fusion genes based on gene-name annotations.
+
+- title: Discriminating somatic and germline mutations in tumor DNA samples without matching normals
+  journal: Genome Research
+  url: http://genome.cshlp.org/content/25/9/1382
+  year: 2015
+  month: July
+  day: 24
+  pic: virtualnormal.png
+  abstract: Tumor analyses commonly employ a correction with a matched normal (MN), a sample from healthy tissue of the same individual, in order to distinguish germline mutations from somatic mutations. Since the majority of variants found in an individual are thought to be common within the population, we constructed a set of 931 samples from healthy, unrelated individuals, originating from two different sequencing platforms, to serve as a virtual normal (VN) in the absence of such an associated normal sample.
+
+- title: ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS
+  journal: BMC Immunology
+  url: https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-014-0059-7
+  year: 2014
+  month: December
+  day: 13
+  pic: iggalaxy.jpg
+  abstract: In this study we describe ImmunoGlobulin Galaxy (IGGalaxy)- a convenient web based application for analyzing next-generation sequencing results and reporting IGH gene rearrangements for both repertoire and clonality studies.
+
+- title: A Department is born
+  url: https://www.erasmusmc.nl/bioinformatica/
+  abstract: In 2003, Erasmus MC took the first steps in order to establish a Center for Bioinformatics. Located in the heart of the biomedical research activities of Erasmus MC, this high-tech bioinformatics department is equipped with a state of the art hard- and software. In collaboration with other departments the center’s multidisciplinary team supports projects that generate genetics, genomics and proteomics data from basic research, forensics studies, molecular diagnostics and clinical trials. </br></br> The center also runs a research program of its own, which provides the biological and technological basis of all the other activities. The research focuses on the way the genome as a whole contributes to the evolution, development, structure and function of the brain. It involves analysis of gene expression in cells of the brain and combines genomics, proteomics and cytogenetic data to identify genes associated with neurological disorders or craniofacial and extremity malformations.
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
