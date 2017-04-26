@@ -11,7 +11,7 @@ welcome-subtitle: It's Nice To Meet You
 
 
 ### Services
-# logo names from fontawesome (http://fontawesome.io/icons/)
+# use logo names from fontawesome http://fontawesome.io/icons/
 services-tagline: We aim to introduce innovative technologies from research into clinical practice.
 
 services:
@@ -47,6 +47,7 @@ services:
 
 
 ### Publications
+
 # these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 publications:
 - title: Integration of EGA secure data access into Galaxy
@@ -151,6 +152,15 @@ people:
     - title: google-plus
       url: #
 
+
+### Collaborations
+
+collaborations:
+- name: elixir
+  logo: elixir.png
+
+- name: dtl
+  logo: dtl.jpg
 
 ### Footer
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
