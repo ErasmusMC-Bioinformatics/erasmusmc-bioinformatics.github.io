@@ -130,12 +130,17 @@ publications:
   pic: iggalaxy.jpg
   abstract: In this study we describe ImmunoGlobulin Galaxy (IGGalaxy)- a convenient web based application for analyzing next-generation sequencing results and reporting IGH gene rearrangements for both repertoire and clonality studies.
 
-- title: A Department is born
-  year: 2003
-  url: https://www.erasmusmc.nl/bioinformatica/
-  pic: logo_bioinfemc.jpg
-  abstract: In 2003, Erasmus MC took the first steps in order to establish a Center for Bioinformatics. Located in the heart of the biomedical research activities of Erasmus MC, this high-tech bioinformatics department is equipped with a state of the art hard- and software. In collaboration with other departments the center’s multidisciplinary team supports projects that generate genetics, genomics and proteomics data from basic research, forensics studies, molecular diagnostics and clinical trials. </br></br> The center also runs a research program of its own, which provides the biological and technological basis of all the other activities. The research focuses on the way the genome as a whole contributes to the evolution, development, structure and function of the brain. It involves analysis of gene expression in cells of the brain and combines genomics, proteomics and cytogenetic data to identify genes associated with neurological disorders or craniofacial and extremity malformations.
 
+
+#################
+#    ABOUT
+#################
+about-header: About us
+about-tagline:
+about-image: erasmus_about.jpg
+about-text:
+    - paragraph: In 2003, Erasmus MC took the first steps in order to establish a Center for Bioinformatics. Located in the heart of the biomedical research activities of Erasmus MC, this high-tech bioinformatics department is equipped with a state of the art hard- and software. In collaboration with other departments the center’s multidisciplinary team supports projects that generate genetics, genomics and proteomics data from basic research, forensics studies, molecular diagnostics and clinical trials.
+    - paragraph: The center also runs a research program of its own, which provides the biological and technological basis of all the other activities. The research focuses on the way the genome as a whole contributes to the evolution, development, structure and function of the brain. It involves analysis of gene expression in cells of the brain and combines genomics, proteomics and cytogenetic data to identify genes associated with neurological disorders or craniofacial and extremity malformations.
 
 #################
 #    TEAM
