@@ -12,6 +12,7 @@ welcome-subtitle: It's Nice To Meet You
 
 ### Services
 # use logo names from fontawesome http://fontawesome.io/icons/
+services-header: Services
 services-tagline: We aim to introduce innovative technologies from research into clinical practice.
 
 services:
@@ -47,6 +48,8 @@ services:
 
 
 ### Publications
+publications-header: Publications
+publications-tagline: Lorem ipsum dolor sit amet consectetur.
 
 # these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 publications:
@@ -95,6 +98,10 @@ publications:
 
 
 ### Team
+team-header: Our Amazing Team
+team-tagline: Lorem ipsum dolor sit amet consectetur.
+team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
 people:
 - name: Andrew Stubbs
   pic: andrew.jpg
