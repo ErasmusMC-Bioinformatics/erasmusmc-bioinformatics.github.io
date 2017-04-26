@@ -1,7 +1,9 @@
 url: https://ErasmusMC-Bioinformatics.github.io
 baseurl:
 
-### Site settings
+##################
+#    GENERAL
+##################
 title: ErasmusMC Bioinformatics
 email: a.stubbs@erasmusmc.nl
 description: "Erasmus Medical Center Bioinformatcs Department"
@@ -10,7 +12,10 @@ welcome-message: Welcome To Our Lab!
 welcome-subtitle: It's Nice To Meet You
 
 
-### Services
+################
+#  SERVICES
+################
+
 # use logo names from fontawesome http://fontawesome.io/icons/
 services-header: Services
 services-tagline: We aim to introduce innovative technologies from research into clinical practice.
@@ -44,92 +49,46 @@ services:
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: bank
 
-### Projects
+
+
+################
+#  PROJECTS
+################
 projects-header: Projects
 projects-tagline: Lorem ipsum dolor sit amet consectetur.
 
 projects:
+- title: MyFAIR
+  subtitle: FAIR data Galaxy integration
+  modal-id: 1
+  image: fairdata.png
+  thumbnail: fairdata_thumbnail.png
+  keywords: Galaxy, FAIR data, Web Development
+  url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
+  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+- title: Galaxian
+  subtitle: The ErasmusMC main Galaxy server
+  modal-id: 2
+  image: galaxian.png
+  thumbnail: galaxian_thumbnail.png
+  keywords: Galaxy
+  url: https://bioinf-galaxian.erasmusmc.nl/galaxy
+  description: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools.
+
 - title: Tailored Treatment
   subtitle: Antimicrobial Resistance
-  layout: default
-  modal-id: 1
-  date: 2014-07-18
-  img: dreams.png
-  thumbnail: dreams-thumbnail.png
-  alt: image-alt
-  project-date: April 2014
-  client: Start Bootstrap
-  category: Web Development
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
-- title: ARGalaxy
-  subtitle: Immunoglobulin Galaxy
-  layout: default
-  modal-id: 2
-  date: 2014-07-17
-  img: escape.png
-  thumbnail: escape-thumbnail.png
-  alt: image-alt
-  project-date: April 2014
-  client: Start Bootstrap
-  category: Web Development
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
-- title: Golden
-  subtitle: Website Design
-  layout: default
   modal-id: 3
-  date: 2014-07-16
-  img: golden.png
-  thumbnail: golden-thumbnail.png
-  alt: image-alt
-  project-date: April 2014
-  client: Start Bootstrap
-  category: Web Development
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
-- title: Treehouse
-  subtitle: Website Design
-  layout: default
-  modal-id: 4
-  date: 2014-07-15
-  img: treehouse.png
-  thumbnail: treehouse-thumbnail.png
-  alt: image-alt
-  project-date: April 2014
-  client: Start Bootstrap
-  category: Web Development
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
-- title: Startup Framework
-  subtitle: Website Design
-  layout: default
-  modal-id: 5
-  date: 2014-07-14
-  img: startup-framework.png
-  thumbnail: startup-framework-thumbnail.png
-  alt: image-alt
-  project-date: April 2014
-  client: Start Bootstrap
-  category: Web Development
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
-- title: Round Icons
-  subtitle: Graphic Design
-  layout: default
-  modal-id: 6
-  date: 2014-07-15
-  img: roundicons.png
-  thumbnail: roundicons-thumbnail.png
-  alt: image-alt
-  project-date: April 2014
-  client: Start Bootstrap
-  category: Web Development
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+  image: ttt.jpg
+  thumbnail: ttt_thumbnail.jpg
+  keywords: Galaxy, Microbiota
+  url: http://www.tailored-treatment.eu/
+  description: "Though of tremendous benefit to global health, antibiotics currently represent the most misused drugs in the world. Global overuse is estimated at 40%-70%, with overuse leading to preventable adverse events that may impact on patient care. Importantly, overuse also leads to the emergence of antibiotic-resistance, a phenomenon that is recognized as a major threat to global health. Further, the current diagnostic tools for facilitating the appropriate use of antibiotics are often inadequate as antibiotic consumption and the spread of antibiotic resistance are continually increasing. <br><br> The TAILORED-Treatment project aims to help clinicians make informed decisions regarding the need for, and type of, antimicrobial therapy required for individual patients"
 
 
-
-### Publications
+#################
+# PUBLICATIONS
+#################
 publications-header: Publications
 publications-tagline: Lorem ipsum dolor sit amet consectetur.
 
@@ -178,13 +137,13 @@ publications:
   abstract: In 2003, Erasmus MC took the first steps in order to establish a Center for Bioinformatics. Located in the heart of the biomedical research activities of Erasmus MC, this high-tech bioinformatics department is equipped with a state of the art hard- and software. In collaboration with other departments the center’s multidisciplinary team supports projects that generate genetics, genomics and proteomics data from basic research, forensics studies, molecular diagnostics and clinical trials. </br></br> The center also runs a research program of its own, which provides the biological and technological basis of all the other activities. The research focuses on the way the genome as a whole contributes to the evolution, development, structure and function of the brain. It involves analysis of gene expression in cells of the brain and combines genomics, proteomics and cytogenetic data to identify genes associated with neurological disorders or craniofacial and extremity malformations.
 
 
-
-### Team
+#################
+#    TEAM
+#################
 team-header: Our Amazing Team
 team-tagline: Lorem ipsum dolor sit amet consectetur.
 team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
-# title should correspond with fontaswesome icon
 people:
 - name: Andrew Stubbs
   pic: andrew.jpg
@@ -247,7 +206,10 @@ people:
       url: mailto:y.li1@erasmsumc.nl
 
 
-### Collaborations
+
+#####################
+#  COLLABORATIONS
+#####################
 collaborations:
 - name: elixir
   logo: elixir.png
@@ -256,7 +218,9 @@ collaborations:
   logo: dtl.jpg
 
 
-### Contact
+####################
+#  CONTACT
+####################
 contact-options:
 - header: Visiting Address
   text:
@@ -288,7 +252,9 @@ contact-options:
     - line: "Fax: +31 10 7044 161"
 
 
-### Footer
+###############
+#  FOOTER
+###############
 social:
   - title: github
     url: https://github.com/orgs/ErasmusMC-Bioinformatics

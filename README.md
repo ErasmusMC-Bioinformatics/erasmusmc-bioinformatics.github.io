@@ -2,17 +2,18 @@
 
 ## How to edit
 
+Simply edit `_config.yml` to add your content!
+
+add any images to the appropriate subfolder in `./img/`
+
 ### Previewing changes locally
 
-install jekyll, clone this repo, and run `jekyll serve` from its root folder
+install jekyll, clone this repo, make your changes, and run `jekyll serve` from its root folder
 
 open `http://localhost:4000` in your browser to preview your changes.
 
 Once you are happy, push changes back to the repo and github will automatically rebuild the site
 
-### Sections
-
-Edit, rearrange, add, or remove in `_layouts/default.html`
 
 ### Services
 
@@ -32,9 +33,23 @@ services:
 
 ### Projects
 
-Project descriptions are in `/_posts` (Images are in `/img/projects`)
+- Add projects to `_config.yml`
+- Images should he placed in `img/projects/`
+- Thumbnail images should all be same ratio (400x290)
+- Clicking on a project will lead to a new page, from where we link out to the project homepage (`url` attribute)
 
-The naming convention of these files is important, and must follow the format: `YEAR-MONTH-DAY-title.markdown`.
+```yaml
+projects:
+- title: MyFAIR
+  subtitle: FAIR data Galaxy integration
+  modal-id: 1
+  image: fairdata.png
+  thumbnail: fairdata_thumbnail.png
+  keywords: Galaxy, FAIR data, Web Development
+  url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
+  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+```
 
 ### Publications
 
@@ -76,7 +91,6 @@ people:
 
 This generates a bar of logos of collaborators. Logos should be placed in `img/logos`
 
-
 ```yaml
 collaborations:
 - name: elixir
@@ -84,6 +98,24 @@ collaborations:
 
 - name: dtl
   logo: dtl.png
+```
+
+### Contact options
+
+Adds contact sections to bottom of page
+
+```yaml
+contact-options:
+- header: Visiting Address
+  text:
+    - line: Faculty Building
+    - line: Room Ee15.79
+    - line: Wytemaweg 80
+    - line: 3015CN Rotterdam
+    - line: The Netherlands
+  links:
+    - description: Route and Parking
+      url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en
 ```
 
 #### Credit
