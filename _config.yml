@@ -65,7 +65,8 @@ projects:
   thumbnail: fairdata_thumbnail.png
   keywords: Galaxy, FAIR data, Web Development
   url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+  description:
+    - paragraph: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 - title: Galaxian
   subtitle: The ErasmusMC main Galaxy server
@@ -74,7 +75,8 @@ projects:
   thumbnail: galaxian_thumbnail.png
   keywords: Galaxy
   url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-  description: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools.
+  description:
+    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools.
 
 - title: Tailored Treatment
   subtitle: Antimicrobial Resistance
@@ -83,7 +85,9 @@ projects:
   thumbnail: ttt_thumbnail.jpg
   keywords: Galaxy, Microbiota
   url: http://www.tailored-treatment.eu/
-  description: "Though of tremendous benefit to global health, antibiotics currently represent the most misused drugs in the world. Global overuse is estimated at 40%-70%, with overuse leading to preventable adverse events that may impact on patient care. Importantly, overuse also leads to the emergence of antibiotic-resistance, a phenomenon that is recognized as a major threat to global health. Further, the current diagnostic tools for facilitating the appropriate use of antibiotics are often inadequate as antibiotic consumption and the spread of antibiotic resistance are continually increasing. <br><br> The TAILORED-Treatment project aims to help clinicians make informed decisions regarding the need for, and type of, antimicrobial therapy required for individual patients"
+  description:
+    - paragraph: Though of tremendous benefit to global health, antibiotics currently represent the most misused drugs in the world. Global overuse is estimated at 40%-70%, with overuse leading to preventable adverse events that may impact on patient care. Importantly, overuse also leads to the emergence of antibiotic-resistance, a phenomenon that is recognized as a major threat to global health. Further, the current diagnostic tools for facilitating the appropriate use of antibiotics are often inadequate as antibiotic consumption and the spread of antibiotic resistance are continually increasing.
+    - paragraph: The TAILORED-Treatment project aims to help clinicians make informed decisions regarding the need for, and type of, antimicrobial therapy required for individual patients"
 
 
 #################
