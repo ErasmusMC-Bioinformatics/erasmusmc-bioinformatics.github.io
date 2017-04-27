@@ -1,5 +1,4 @@
 <!-- Projects Grid Section -->
-
     <section id="projects" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -9,8 +8,7 @@
                 </div>
             </div>
             <div class="row">
-
-            {% for project in site.projects %}
+                {% for project in site.projects %}
                 <div class="col-md-4 col-sm-6 projects-item">
                     <a href="#projectsModal{{ project.modal-id }}" class="projects-link" data-toggle="modal">
                         <div class="projects-hover">
@@ -25,8 +23,7 @@
                         <p class="text-muted">{{ project.subtitle }}</p>
                     </div>
                 </div>
-            {% endfor %}
-
+                {% endfor %}
             </div>
         </div>
     </section>

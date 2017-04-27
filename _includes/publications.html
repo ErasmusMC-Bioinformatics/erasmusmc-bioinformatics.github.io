@@ -10,8 +10,6 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-
-                        <!-- add publications to timeline, alternating sides -->
                         {% for pub in site.publications %}
                         {% capture cycle %}{% cycle 'even', 'odd' %}{% endcapture %}
                         <li {% if cycle == 'odd' %} class="timeline-inverted" {% endif %} >
@@ -24,35 +22,23 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p>
-
-                                    {% if pub.year %}
-                                        {{ pub.day }} {{ pub.month }} {{ pub.year }} <br>
-                                    {% endif %}
-
-                                    {% if pub.journal %}
-                                        <a href="{{ pub.url }}"> {{ pub.journal }} </a> <br>
-                                    {% endif %}
-
+                                    {% if pub.year %} {{ pub.month }} {{ pub.year }} <br> {% endif %}
+                                    {% if pub.journal %} <a href="{{ pub.url }}"> {{ pub.journal }} </a><br> {% endif %}
                                     </p>
                                     <p class="text-muted">
-                                    {% if pub.abstract %}
-                                        {{ pub.abstract }} <br>
-                                    {% endif %}
-
-                                    {% if pub.url %}
-                                    <a href="{{ pub.url }}"> READ MORE </a>
-                                    {% endif %}
+                                    {% if pub.abstract %} {{ pub.abstract }} <br> {% endif %}
+                                    {% if pub.url %} <a href="{{ pub.url }}"> READ MORE </a>  {% endif %}
                                     </p>
                                 </div>
                             </div>
                         </li>
                         {% endfor %}
-
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
+                                <h4>Be Part <br>
+                                    Of Our <br>
+                                    Story!
+                                </h4>
                             </div>
                         </li>
                     </ul>
