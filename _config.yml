@@ -103,7 +103,7 @@ publications:
   pic: ega.png
   abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data.
 
-- title: FuMa reporting overlap in RNA-seq detected fusion genes
+- title: "FuMa: reporting overlap in RNA-seq detected fusion genes"
   journal: Bioinformatics
   url: https://doi.org/10.1093/bioinformatics/btv721
   year: 2015
@@ -130,7 +130,14 @@ publications:
   pic: iggalaxy.jpg
   abstract: In this study we describe ImmunoGlobulin Galaxy (IGGalaxy)- a convenient web based application for analyzing next-generation sequencing results and reporting IGH gene rearrangements for both repertoire and clonality studies.
 
-
+- title: "iReport: a generalised Galaxy solution for integrated experimental reporting"
+  journal: GigaScience
+  url: https://doi.org/10.1186/2047-217X-3-19
+  year: 2014
+  month: October
+  day: 13
+  pic: ireport.jpg
+  abstract: Galaxy offers a number of visualisation options with components, such as Trackster, Circster and Galaxy Charts, but currently lacks the ability to easily combine outputs from different tools into a single view or report. We have developed a generic and flexible reporting tool for Galaxy, iReport, that allows users to create interactive HTML reports directly from the Galaxy UI, with the ability to combine an arbitrary number of outputs from any number of different tools.
 
 #################
 #    ABOUT
