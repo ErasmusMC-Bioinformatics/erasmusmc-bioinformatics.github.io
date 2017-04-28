@@ -19,12 +19,18 @@ Once you are happy, push changes back to the repo and github will automatically 
 
 - Add services to `_config.yml`.
 - Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
+- If a service has an attribute `modal-id` it will pop up a page when user clicks on the logo
 
 ```yaml
 services:
 - name: Galaxy
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: star
+  modal-id: 1
+  description:
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - paragraph: blabla again
 
 - name: FAIR data
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
