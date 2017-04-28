@@ -1,5 +1,7 @@
 # ErasmusMC Bioinformatics Landing Page
 
+View live page: https://erasmusmc-bioinformatics.github.io/
+
 ## How to edit
 
 Simply edit `_config.yml` to add your content!
@@ -9,6 +11,10 @@ add any images to the appropriate subfolder in `./img/`
 ### Previewing changes locally
 
 install jekyll, clone this repo, make your changes, and run `jekyll serve` from its root folder
+
+```
+
+```
 
 open `http://localhost:4000` in your browser to preview your changes.
 
@@ -20,6 +26,7 @@ Once you are happy, push changes back to the repo and github will automatically 
 - Add services to `_config.yml`.
 - Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
 - If a service has an attribute `modal-id` it will pop up a page when user clicks on the logo
+- `description` contains the contents of this page, each item can be a paragraph or a link
 
 ```yaml
 services:
@@ -53,8 +60,9 @@ projects:
   thumbnail: fairdata_thumbnail.png
   keywords: Galaxy, FAIR data, Web Development
   url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
-  description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+  description:
+    - paragraph: MyFAIR Analysis is a web application designed to allow scientists to create FAIR data, and to provide FAIR data analysis such that the “end to end” analysis complies with FAIR data principles. MyFAIR analysis is a python application and graphical user interface (GUI) that uses Galaxy2 for analytical workflows and B2DROP3(EUDAT) for FAIR data storage.  Our proof of concept to test myFAIR analysis uses the genome in a bottle trio-samples available form  galaxy training for genetic variation analysis.
+    - image: myfair.png
 ```
 
 ### Publications
