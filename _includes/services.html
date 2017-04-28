@@ -10,12 +10,14 @@
             <div class="row text-center">
                 {% for service in site.services %}
                 <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-{{ service.icon }} fa-stack-1x fa-inverse"></i>
-                    </span>
+                    {%if service.modal-id %}<a href="#servicesModal{{ service.modal-id }}" class="projects-link" data-toggle="modal">{% endif %}
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-{{ service.icon }} fa-stack-1x fa-inverse"> </i>
+                        </span>
+                    {%if service.modal-id %}</a>{% endif %}
                     <h4 class="service-heading">{{ service.name }}</h4>
-                    <p class="text-muted">{{ service.description }}</p>
+                    <p class="text-muted">{{ service.tagline }}</p>
                 </div>
                 {% endfor %}
             </div>
