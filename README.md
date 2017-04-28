@@ -10,13 +10,27 @@ add any images to the appropriate subfolder in `./img/`
 
 ### Previewing changes locally
 
-install jekyll, clone this repo, make your changes, and run `jekyll serve` from its root folder
+install jekyll
 
 ```
-
+$ sudo apt-get install ruby-dev
+$ gem install jekyll
 ```
 
-open `http://localhost:4000` in your browser to preview your changes.
+clone this repo and cd into the directory
+
+```
+$ git clone https://github.com/ErasmusMC-Bioinformatics/erasmusmc-bioinformatics.github.io.git
+$ cd erasmusmc-bioinformatics.github.io
+```
+
+make your changes, and run
+
+```
+$ jekyll serve
+```
+
+to serve the site. Now open `http://localhost:4000` in your browser to preview your changes.
 
 Once you are happy, push changes back to the repo and github will automatically rebuild the site
 
@@ -26,7 +40,7 @@ Once you are happy, push changes back to the repo and github will automatically 
 - Add services to `_config.yml`.
 - Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
 - If a service has an attribute `modal-id` it will pop up a page when user clicks on the logo
-- `description` contains the contents of this page, each item can be a paragraph or a link
+- `description` contains the contents of this popup page, each item can be a paragraph or an image
 
 ```yaml
 services:
