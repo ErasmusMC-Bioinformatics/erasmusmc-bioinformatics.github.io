@@ -6,7 +6,7 @@ baseurl:
 ##################
 title: ErasmusMC Bioinformatics
 email: a.stubbs@erasmusmc.nl
-description: "Erasmus Medical Center Bioinformatcs Department"
+description: "Clincial Bioinformatics Erasmus Univeristy Medical Center"
 
 welcome-message: Welcome To Our Lab!
 welcome-subtitle: It's Nice To Meet You
@@ -17,7 +17,7 @@ welcome-subtitle: It's Nice To Meet You
 ################
 
 # use icon names from fontawesome http://fontawesome.io/icons/
-services-header: Services
+services-header:  Services
 services-tagline: We aim to introduce innovative technologies from research into clinical practice.
 
 services:
@@ -29,6 +29,15 @@ services:
     - paragraph: blabla
     - image: galaxy_logo.jpg
     - paragraph: blabla again
+    - title: Galaxian
+  subtitle: The ErasmusMC main Galaxy server
+  modal-id: 2
+  image: galaxian.png
+  thumbnail: galaxian_thumbnail.png
+  keywords: Galaxy
+  url: https://bioinf-galaxian.erasmusmc.nl/galaxy
+  description:
+    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
 
 - name: FAIR data
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
@@ -40,11 +49,11 @@ services:
   icon: graduation-cap
   modal-id: 3
 
-- name: Databases
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-  icon: database
+#- name: Databases
+#  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+#  icon: database
 
-- name: Molecular Medicine
+- name: Presicion Medicine
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: flask
 
@@ -52,7 +61,7 @@ services:
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: stethoscope
 
-- name: Biobanking
+- name: 
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: bank
 
