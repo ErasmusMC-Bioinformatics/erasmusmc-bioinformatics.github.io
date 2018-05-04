@@ -26,14 +26,15 @@ services:
   icon: star
   modal-id: 1
   description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
+    -title: Galaxian
+      - paragraph: blabla
+      - image: galaxy_logo.jpg
+      - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
+      - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
     - paragraph 
-    - subtitle: The AR Galaxyserver
-    - image: galaxy_logo.jpg
-    - url: https://bioinf-galaxian.erasmusmc.nl/argalaxy
+    - title: The AR Galaxyserver
+      - image: galaxy_logo.jpg
+      - url: https://bioinf-galaxian.erasmusmc.nl/argalaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
   
     
@@ -67,9 +68,9 @@ services:
   description:
       paragraph: NO!
       - set:
-        ? item1
-        ? item2
-        ? item3
+        item1
+        item2
+        item3
 
 
 ################
