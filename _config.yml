@@ -65,6 +65,11 @@ services:
 - name: NGS Methods
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: bank
+  modal-id: 4
+  set:
+  ? item1
+  ? item2
+  ? item3
 
 
 ################
