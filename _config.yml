@@ -33,23 +33,7 @@ services:
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
     - title: Galaxian
     
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
-    - title: argalaxy
   
-  
-  
-  
-  subtitle: The ErasmusMC main Galaxy server
-  modal-id: 2
-  image: galaxian.png
-  thumbnail: galaxian_thumbnail.png
-  keywords: Galaxy
-  url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-  description:
-    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-
 - name: FAIR data
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: laptop
