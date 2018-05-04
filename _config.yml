@@ -26,11 +26,11 @@ services:
   icon: star
   modal-id: 1
   description:
+    - title: Galaxian
     - paragraph: blabla
     - image: galaxy_logo.jpg
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-    - title: Galaxian
     - paragraph 
     - image: galaxian.png
     - thumbnail: galaxian_thumbnail.png
