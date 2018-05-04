@@ -33,6 +33,7 @@ services:
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
     
     
+    
   
 - name: FAIR data
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
@@ -60,7 +61,17 @@ services:
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: bank
   modal-id: 4
-  description:
+  a_sequence:
+  - Item 1
+    description:
+    - title: Galaxian
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
+    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
+  
+  - Item 2
+  
 
 
 ################
