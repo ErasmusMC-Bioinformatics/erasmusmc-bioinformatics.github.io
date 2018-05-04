@@ -30,6 +30,14 @@ services:
     - image: galaxy_logo.jpg
     - paragraph: blabla again
     - title: Galaxian
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - paragraph: blabla again
+    - title: argalaxy
+  
+  
+  
+  
   subtitle: The ErasmusMC main Galaxy server
   modal-id: 2
   image: galaxian.png
