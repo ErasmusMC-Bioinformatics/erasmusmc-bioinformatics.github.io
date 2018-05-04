@@ -32,8 +32,7 @@ services:
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
     - paragraph 
-    - image: galaxian.png
-    - thumbnail: galaxian_thumbnail.png
+    - image: galaxy_logo.jpg
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
   
