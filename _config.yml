@@ -26,7 +26,7 @@ services:
   icon: star
   modal-id: 1
   description:
-    -title: Galaxian
+    - title: Galaxian
     - paragraph: blabla
     - image: galaxy_logo.jpg
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
