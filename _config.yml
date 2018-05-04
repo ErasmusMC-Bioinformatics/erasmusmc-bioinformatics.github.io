@@ -27,16 +27,11 @@ services:
   modal-id: 1
   description:
     -title: Galaxian
-      - paragraph: blabla
-      - image: galaxy_logo.jpg
-      - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-      - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-    - paragraph 
-    - title: The AR Galaxyserver
-      - image: galaxy_logo.jpg
-      - url: https://bioinf-galaxian.erasmusmc.nl/argalaxy
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-  
+    
     
   
 - name: FAIR data
