@@ -22,13 +22,18 @@ services-tagline: We aim to introduce innovative technologies from research into
 
 services:
 - name: Galaxy
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  tagline: Workflow Services and Applications.
   icon: star
   modal-id: 1
   description:
     - paragraph: blabla
     - image: galaxy_logo.jpg
-    - paragraph: blabla again
+    - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
+    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
+    - title: Galaxian
+ description:
+    - paragraph: blabla
+    - image: fairdata.png
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
     - title: Galaxian
