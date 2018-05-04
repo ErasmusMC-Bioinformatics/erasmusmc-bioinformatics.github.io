@@ -63,12 +63,6 @@ services:
   modal-id: 4
   a_sequence:
   - Item 1
-    - title: Galaxian
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-  
   - Item 2
   
 
