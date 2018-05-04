@@ -63,7 +63,6 @@ services:
   modal-id: 4
   a_sequence:
   - Item 1
-    description:
     - title: Galaxian
     - paragraph: blabla
     - image: galaxy_logo.jpg
