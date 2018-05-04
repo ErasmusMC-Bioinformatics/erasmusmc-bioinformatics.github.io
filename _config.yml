@@ -66,11 +66,6 @@ services:
   icon: bank
   modal-id: 4
   description:
-      paragraph: NO!
-      - set:
-        item1
-        item2
-        item3
 
 
 ################
