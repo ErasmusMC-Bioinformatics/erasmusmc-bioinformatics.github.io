@@ -31,11 +31,11 @@ services:
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
     - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
     - title: Galaxian
-    - paragraph: blabla
-    - image: fairdata.png
-    - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-    - title: Galaxian
+        - paragraph: blabla
+        - image: fairdata.png
+        - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
+        - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
+        - title: Galaxian
     
   
 - name: FAIR data
