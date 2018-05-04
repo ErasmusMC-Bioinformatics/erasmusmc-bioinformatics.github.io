@@ -26,8 +26,7 @@ services:
   icon: star
   modal-id: 1
   description:
-    - title: Galaxies
-    - subtitle: The ErasmusMC main Galaxy server
+    - title: The ErasmusMC main Galaxy server
     - paragraph: blabla
     - image: galaxy_logo.jpg
     - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
@@ -66,6 +65,8 @@ services:
   tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: bank
   modal-id: 4
+  description:
+  
   set:
   ? item1
   ? item2
