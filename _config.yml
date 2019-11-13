@@ -30,48 +30,38 @@ services:
   - paragraph: blabla
   - image: galaxy_logo.jpg
   - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-  - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
-    
-    
-    
+  - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools   
   
 - name: FAIR data
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  tagline: Findable, Accessible, Interoperable and Reusable data.
   icon: laptop
   modal-id: 2
 
 - name: Training
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  tagline: Training provided by our team.
   icon: graduation-cap
   modal-id: 3
 
-#- name: Databases
-#  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-#  icon: database
-
 - name: Presicion Medicine
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  tagline: 
   icon: flask
+  modal-id: 4
 
 - name: Clinical Diagnostics
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  tagline: 
   icon: stethoscope
+  modal-id: 5
 
 - name: NGS Methods
-  tagline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  tagline: 
   icon: bank
-  modal-id: 4
-  a_sequence:
-  - Item 1
-  - Item 2
+  modal-id: 6
   
-
-
 ################
 #  PROJECTS
 ################
 projects-header: Projects
-projects-tagline: Lorem ipsum dolor sit amet consectetur.
+projects-tagline:
 
 projects:
 - title: MyFAIR
@@ -124,7 +114,7 @@ projects:
 # PUBLICATIONS
 #################
 publications-header: Publications
-publications-tagline: Lorem ipsum dolor sit amet consectetur.
+publications-tagline:
 
 # these will be rendered on a timeline in the order encountered, please put in chronological order with newest first
 publications:
@@ -187,8 +177,8 @@ about-text:
 #    TEAM
 #################
 team-header: Our Amazing Team
-team-tagline: Lorem ipsum dolor sit amet consectetur.
-team-footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+team-tagline:
+team-footer:
 
 people:
 - name: Andrew Stubbs
@@ -235,6 +225,19 @@ people:
     - icon: twitter
       url: https://twitter.com/shiltemann
 
+- name: Willem de Koning
+  pic: willem.jpg
+  position: PhD student
+  contact:
+    - icon: envelope
+      url: mailto:w.dekoning.1@erasmusmc.nl
+    - icon: github
+      url: https://github.com/willemdek11
+    - icon: linkedin
+      url: https://www.linkedin.com/in/willemdek/
+    - icon: twitter
+      url: https://twitter.com/willemdek11
+
 - name: Youri Hoogstrate
   pic: youri.jpg
   position: PhD student
@@ -271,13 +274,13 @@ contact-options:
 - header: Visiting Address
   text:
     - line: Faculty Building
-    - line: Room Ee15.79
+    - line: Room EE-1579
     - line: Wytemaweg 80
     - line: 3015CN Rotterdam
     - line: The Netherlands
   links:
     - description: Route and Parking
-      url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en
+      url: https://www.erasmusmc.nl/en/contact-us
 
 - header: Mailing Address
   text:
