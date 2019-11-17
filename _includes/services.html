@@ -8,7 +8,8 @@
                 </div>
             </div>
             <div class="row text-center">
-                {% for service in site.services %}
+                {% assign services = site.services | sort: site.services.order %}
+                {% for service in services %}
                 <div class="col-md-4">
                     {%if service.modal-id %}<a href="#servicesModal{{ service.modal-id }}" class="projects-link" data-toggle="modal">{% endif %}
                         <span class="fa-stack fa-4x">
