@@ -1,15 +1,28 @@
 url: https://ErasmusMC-Bioinformatics.github.io
 baseurl:
 
-##################
-#    GENERAL
-##################
 title: ErasmusMC Bioinformatics
 email: a.stubbs@erasmusmc.nl
 description: "Clincial Bioinformatics Erasmus Univeristy Medical Center"
 
 welcome-message: Welcome To Our Lab!
 welcome-subtitle: It's Nice To Meet You
+
+
+# Collections (https://jekyllrb.com/docs/collections/ )
+collections:
+  services:
+    title: Services
+  projects:
+    title: Projects
+    tagline: EMC projects
+    output: true
+    permalink: /:collection/:name
+  publications:
+    title: Publications
+    output: true
+  people:
+    title: Our Team
 
 
 ################
@@ -30,8 +43,8 @@ services:
   - paragraph: blabla
   - image: galaxy_logo.jpg
   - url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-  - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools   
-  
+  - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools
+
 - name: FAIR data
   tagline: Findable, Accessible, Interoperable and Reusable data.
   icon: laptop
@@ -43,71 +56,19 @@ services:
   modal-id: 3
 
 - name: Presicion Medicine
-  tagline: 
+  tagline:
   icon: flask
   modal-id: 4
 
 - name: Clinical Diagnostics
-  tagline: 
+  tagline:
   icon: stethoscope
   modal-id: 5
 
 - name: NGS Methods
-  tagline: 
+  tagline:
   icon: bank
   modal-id: 6
-  
-################
-#  PROJECTS
-################
-projects-header: Projects
-projects-tagline:
-
-projects:
-- title: MyFAIR
-  subtitle: FAIR data Galaxy integration
-  modal-id: 1
-  image: fairdata.png
-  thumbnail: fairdata_thumbnail.png
-  keywords: Galaxy, FAIR data, Web Development
-  url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
-  description:
-    - paragraph: MyFAIR Analysis is a web application designed to allow scientists to create FAIR data, and to provide FAIR data analysis such that the “end to end” analysis complies with FAIR data principles. MyFAIR analysis is a python application and graphical user interface (GUI) that uses Galaxy2 for analytical workflows and B2DROP3(EUDAT) for FAIR data storage.  Our proof of concept to test myFAIR analysis uses the genome in a bottle trio-samples available form  galaxy training for genetic variation analysis.
-    - image: myfair.png
-
-- title: Galaxian
-  subtitle: The ErasmusMC main Galaxy server
-  modal-id: 2
-  image: galaxian.png
-  thumbnail: galaxian_thumbnail.png
-  keywords: Galaxy
-  url: https://bioinf-galaxian.erasmusmc.nl/galaxy
-  description:
-    - paragraph: This is the main Galaxy server for the Erasmus MC. It offers a range of NGS analysis tools.
-
-- title: Tailored Treatment
-  subtitle: Antimicrobial Resistance
-  modal-id: 3
-  image: ttt.jpg
-  thumbnail: ttt_thumbnail.jpg
-  keywords: Galaxy, Microbiota
-  url: http://www.tailored-treatment.eu/
-  description:
-    - paragraph: Though of tremendous benefit to global health, antibiotics currently represent the most misused drugs in the world. Global overuse is estimated at 40%-70%, with overuse leading to preventable adverse events that may impact on patient care. Importantly, overuse also leads to the emergence of antibiotic-resistance, a phenomenon that is recognized as a major threat to global health. Further, the current diagnostic tools for facilitating the appropriate use of antibiotics are often inadequate as antibiotic consumption and the spread of antibiotic resistance are continually increasing.
-    - paragraph: The TAILORED-Treatment project aims to help clinicians make informed decisions regarding the need for, and type of, antimicrobial therapy required for individual patients"
-
-- title: Diagoras
-  subtitle: Antimicrobial Resistance
-  modal-id: 3
-  image: ttt.jpg
-  thumbnail: ttt_thumbnail.jpg
-  keywords: Galaxy, Microbiota
-  url: http://www.tailored-treatment.eu/
-  description:
-    - paragraph: Though of tremendous benefit to global health, antibiotics currently represent the most misused drugs in the world. Global overuse is estimated at 40%-70%, with overuse leading to preventable adverse events that may impact on patient care. Importantly, overuse also leads to the emergence of antibiotic-resistance, a phenomenon that is recognized as a major threat to global health. Further, the current diagnostic tools for facilitating the appropriate use of antibiotics are often inadequate as antibiotic consumption and the spread of antibiotic resistance are continually increasing.
-    - paragraph: The TAILORED-Treatment project aims to help clinicians make informed decisions regarding the need for, and type of, antimicrobial therapy required for individual patients"
-
-
 
 
 #################
@@ -180,82 +141,6 @@ team-header: Our Amazing Team
 team-tagline:
 team-footer:
 
-people:
-- name: Andrew Stubbs
-  pic: andrew.jpg
-  position: Assistent Professor
-  contact:
-    - icon: envelope
-      url: mailto:a.stubbs@erasmsumc.nl
-    - icon: linkedin
-      url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
-    - icon: github
-      url: https://github.com/Andrew-EMC
-
-- name: Bas Horsman
-  pic: bas.jpg
-  position: Developer
-  contact:
-    - icon: envelope
-      url: mailto:s.horsman@erasmsumc.nl
-    - icon: github
-      url: https://github.com/shorsman
-    - icon: linkedin
-      url: https://www.linkedin.com/in/bas-horsman-7370492/
-
-- name: David van Zessen
-  pic: david.jpg
-  position: Developer
-  contact:
-    - icon: envelope
-      url: mailto:d.vanzessen@erasmsumc.nl
-    - icon: github
-      url: https://github.com/davidvanzessen
-
-- name: Saskia Hiltemann
-  pic: saskia.jpg
-  position: PhD student
-  contact:
-    - icon: envelope
-      url: mailto:zazkia@gmail.com
-    - icon: github
-      url: https://github.com/shiltemann
-    - icon: linkedin
-      url: https://www.linkedin.com/in/shiltemann/
-    - icon: twitter
-      url: https://twitter.com/shiltemann
-
-- name: Willem de Koning
-  pic: willem.jpg
-  position: PhD student
-  contact:
-    - icon: envelope
-      url: mailto:w.dekoning.1@erasmusmc.nl
-    - icon: github
-      url: https://github.com/willemdek11
-    - icon: linkedin
-      url: https://www.linkedin.com/in/willemdek/
-    - icon: twitter
-      url: https://twitter.com/willemdek11
-
-- name: Youri Hoogstrate
-  pic: youri.jpg
-  position: PhD student
-  contact:
-    - icon: envelope
-      url: mailto:y.hoogstrate@erasmsumc.nl
-    - icon: github
-      url: https://github.com/yhooogstrate
-
-- name: Yunlei Li
-  pic: yunlei.jpg
-  position: Post-Doc
-  contact:
-    - icon: envelope
-      url: mailto:y.li1@erasmsumc.nl
-
-
-
 #####################
 #  COLLABORATIONS
 #####################
@@ -314,3 +199,6 @@ social:
 ### Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-paginate
