@@ -1,7 +1,7 @@
 ---
 title: "iReport: a generalised Galaxy solution for integrated experimental reporting"
 journal: GigaScience
-url: https://doi.org/10.1186/2047-217X-3-19
+paper_url: https://doi.org/10.1186/2047-217X-3-19
 year: 2014
 month: October
 day: 13

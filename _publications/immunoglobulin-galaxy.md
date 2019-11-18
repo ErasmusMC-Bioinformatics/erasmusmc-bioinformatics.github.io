@@ -1,7 +1,7 @@
 ---
 title: ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS
 journal: BMC Immunology
-url: https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-014-0059-7
+paper_url: https://bmcimmunol.biomedcentral.com/articles/10.1186/s12865-014-0059-7
 year: 2014
 month: December
 day: 13

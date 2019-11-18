@@ -1,7 +1,7 @@
 ---
 title: "FuMa: reporting overlap in RNA-seq detected fusion genes"
 journal: Bioinformatics
-url: https://doi.org/10.1093/bioinformatics/btv721
+paper_url: https://doi.org/10.1093/bioinformatics/btv721
 year: 2015
 month: December
 day: 10

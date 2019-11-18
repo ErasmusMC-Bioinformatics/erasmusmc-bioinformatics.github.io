@@ -1,7 +1,7 @@
 ---
 title: Discriminating somatic and germline mutations in tumor DNA samples without matching normals
 journal: Genome Research
-url: http://genome.cshlp.org/content/25/9/1382
+paper_url: https://genome.cshlp.org/content/25/9/1382
 year: 2015
 month: July
 day: 24

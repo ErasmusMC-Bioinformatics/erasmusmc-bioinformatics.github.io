@@ -1,7 +1,7 @@
 ---
 title: Integration of EGA secure data access into Galaxy
 journal: F1000 Research
-url: https://f1000research.com/articles/5-2841
+paper_url: https://f1000research.com/articles/5-2841
 year: 2016
 month: December
 day: 16
