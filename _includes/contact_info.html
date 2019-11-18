@@ -1,0 +1,28 @@
+    
+<hr>
+
+<contact_info>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    {% for c in site.contact-options %}
+                    <div class="row">
+                        <div class="text-center">
+                            <h4>{{ c.header }}</h4>
+                            {% for l in c.text %}
+                            {{ l.line }} <br>
+                            {% endfor %}
+                            {% for l in c.links %}
+                            <a href="{{ l.url }}">{{ l.description }}</a><br>
+                            {% endfor %}
+                            <br>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</contact_info>
