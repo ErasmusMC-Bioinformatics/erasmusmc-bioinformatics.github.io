@@ -17,14 +17,42 @@ background: '/img/bg-post.jpg'
                         {% endif %}
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.contact %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.icon }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
+                        <ul class="list-inline text-center">
+                          {% if member.email %}
+                          <li class="list-inline-item">
+                            <a href="mailto:{{ member.email | encode_email }}">
+                              <i class="far fa-envelope"></i>
+                            </a>
+                          </li>
+                          {% endif %}
+                          {% if member.twitter_username %}
+                          <li class="list-inline-item">
+                            <a href="https://twitter.com/{{ member.twitter_username }}">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                          </li>
+                          {% endif %}
+                          {% if member.facebook_username %}
+                          <li class="list-inline-item">
+                            <a href="https://www.facebook.com/{{ member.facebook_username }}">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          {% endif %}
+                          {% if member.linkedin_username %}
+                          <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}">
+                              <i class="fab fa-linkedin"></i>
+                            </a>
+                          </li>
+                          {% endif %}
+                          {% if member.github_username %}
+                          <li class="list-inline-item">
+                            <a href="https://github.com/{{ member.github_username }}">
+                              <i class="fab fa-github"></i>
+                            </a>
+                          </li>
+                          {% endif %}
                         </ul>
                     </div>
                 </div>

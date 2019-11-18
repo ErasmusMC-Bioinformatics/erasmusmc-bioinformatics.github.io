@@ -29,26 +29,26 @@ layout: default
 
         {{ content }}
 
-        <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        <!-- Home Application List -->
+        {% for application in site.applications limit : 3 %}
 
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        <article class="application-preview">
+          <a href="{{ application.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="application-title">{{ application.title }}</h2>
+            {% if application.subtitle %}
+            <h3 class="application-subtitle">{{ application.subtitle }}</h3>
             {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+            <h3 class="application-subtitle">{{ application.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
+          <p class="application-meta">Posted by
+            {% if application.author %}
+            {{ application.author }}
             {% else %}
             {{ site.author }}
             {% endif %}
             on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+            {{ application.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=application.content %}            
           </p>
         </article>
 
@@ -57,12 +57,90 @@ layout: default
         {% endfor %}
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/applications" | relative_url }}">View All Applications &rarr;</a>
         </div>
       </div>
     </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <!-- Home Project List -->
+        {% for project in site.projects limit : 3 %}
+
+        <article class="project-preview">
+          <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="project-title">{{ project.title }}</h2>
+            {% if project.subtitle %}
+            <h3 class="project-subtitle">{{ project.subtitle }}</h3>
+            {% else %}
+            <h3 class="project-subtitle">{{ project.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="project-meta">Posted by
+            {% if project.author %}
+            {{ project.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ project.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=project.content %}            
+          </p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/projects" | relative_url }}">View All Projects &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <!-- Home Publications List -->
+        {% for publication in site.publications limit : 3 %}
+
+        <article class="publication-preview">
+          <a href="{{ publication.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="publication-title">{{ publication.title }}</h2>
+            {% if publication.subtitle %}
+            <h3 class="publication-subtitle">{{ publication.subtitle }}</h3>
+            {% else %}
+            <h3 class="publication-subtitle">{{ publication.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="publication-meta">Posted by
+            {% if publication.author %}
+            {{ publication.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ publication.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=publication.content %}            
+          </p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/publications" | relative_url }}">View All Publications &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    {% include about.html %}
     {% include collaborators.html %}    
     {% include contact_info.html %}
-
-
   </div>
