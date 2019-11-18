@@ -1,7 +1,7 @@
 ---
 layout: application
-title: "FAIR Data"
-subtitle: "myFAIR"
+title: "Visual Data Mining"
+subtitle: "DOVAL"
 icon: stethoscope
 background: '/img/bg-index.jpg'
 ---

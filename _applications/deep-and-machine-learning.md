@@ -1,7 +1,7 @@
 ---
 layout: application
-title: "FAIR Data"
-subtitle: "myFAIR"
+title: "Deep- and Machine- Learning"
+subtitle: "JUNIPER"
 icon: stethoscope
 background: '/img/bg-index.jpg'
 ---

@@ -2,8 +2,6 @@
 name: Rick Jansen
 position: Developer
 contact:
-  - icon: envelope
-    url: mailto:r.jansen.1@erasmusmc.nl
-  - icon: github
-    url: https://github.com/rjansen1984
+email: r.jansen.1@erasmusmc.nl
+github_username: rjansen1984
 ---
