@@ -1,0 +1,29 @@
+---
+layout: page
+title: Applications
+background: '/img/bg-post.jpg'
+---
+
+<!-- Applications Section -->
+    <section id="applications">
+        <div class="container">
+            <div class="row text-center">
+                {% assign applications = site.applications | sort: site.applications.order %}
+                {% for application in site.applications %}
+                <div class="col-md-4">
+                    <a href="{{ application.url | prepend: site.baseurl | replace: '//', '/' }}">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-{{ application.icon }} fa-stack-1x fa-inverse"> </i>
+                        </span>
+                    </a>
+                    <div class ="applications-caption">
+                        <h4 class="application-heading">{{ application.title }}</h4>
+                        <p class="text-muted">{{ application.subtitle }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+

@@ -1,0 +1,40 @@
+---
+layout: page
+title: Publications
+background: '/img/bg-post.jpg'
+---
+
+    <!-- Publications Section -->
+    <section id="publications">
+        <style>
+        img {border-radius: 50%;}
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                    {% for paper in site.publications %}
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{ paper.title }}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                {% if paper.year %} {{ paper.month }} {{ paper.year }} <br> {% endif %}
+                                {% if paper.journal %} <a href="{{ paper.paper_url }}"> {{ paper.journal }} </a><br> {% endif %}
+                                </p>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="../img/publications/{{ paper.pic }}" alt="" style="width:200px">
+                                </div>
+                                <p class="text-muted">
+                                {% if paper.abstract %} {{ paper.abstract }} <br> {% endif %}
+                                {% if paper.paper_url %} <a href="{{ paper.paper_url }}"> READ MORE </a>  {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

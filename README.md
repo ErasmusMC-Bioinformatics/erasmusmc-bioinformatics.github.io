@@ -27,7 +27,7 @@ $ cd erasmusmc-bioinformatics.github.io
 make your changes, and run
 
 ```
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 to serve the site. Now open `http://localhost:4000` in your browser to preview your changes.
@@ -56,7 +56,7 @@ services:
 - name: FAIR data
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
   icon: laptop
- ```
+```
 
 ### Projects
 
@@ -145,6 +145,3 @@ contact-options:
     - description: Route and Parking
       url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en
 ```
-
-#### Credit
-Theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
