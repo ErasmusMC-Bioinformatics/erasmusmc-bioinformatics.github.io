@@ -1,143 +1,147 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/template-overviews/clean-blog-jekyll/) - Official Jekyll Version
+# ErasmusMC Bioinformatics Landing Page
 
-[Clean Blog Jekyll](http://startbootstrap.com/template-overviews/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+View live page: https://erasmusmc-bioinformatics.github.io/
 
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
+## How to edit
 
-## Preview
+Simply edit `_config.yml` to add your content!
 
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+add any images to the appropriate subfolder in `./img/`
 
-**[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
+### Previewing changes locally
 
-## Installation & Setup
+install jekyll
 
-### Using RubyGems:
-
-When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
-
-1. (Optional) Create a new Jekyll site: `jekyll new my-site`
-2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme: `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
-5. Build your site: `bundle exec jekyll serve`
-
-Assuming there are no errors and the site is building properly, follow these steps next:
-
-1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
-   - `index.html` - set to `layout: home`
-   - `about.html` - set to `layout: page`
-   - `contact.html` - set to `layout: page`
-   - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
-2. Configure the `index.html` front matter. Example:
 ```
----
-layout: home
-background: '/PATH_TO_IMAGE'
----
-```
-3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
-```
----
-layout: page
-title: Page Title
-description: This is the page description.
-background: '/PATH_TO_IMAGE'
----
-```
-4. For each post in the `_posts` directory, update the front matter. Example:
-```
----
-layout: post
-title: "Post Title"
-subtitle: "This is the post subtitle."
-date: YYYY-MM-DD HH:MM:SS
-background: '/PATH_TO_IMAGE'
----
+$ sudo apt-get install ruby-dev
+$ gem install jekyll
 ```
 
-For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+clone this repo and cd into the directory
 
-5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
 ```
-<form name="sentMessage" id="contactForm" novalidate>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Name</label>
-      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Email Address</label>
-      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group col-xs-12 floating-label-form-group controls">
-      <label>Phone Number</label>
-      <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Message</label>
-      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <br>
-  <div id="success"></div>
-  <div class="form-group">
-    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-  </div>
-</form>
+$ git clone https://github.com/ErasmusMC-Bioinformatics/erasmusmc-bioinformatics.github.io.git
+$ cd erasmusmc-bioinformatics.github.io
 ```
 
-Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+make your changes, and run
 
-6. Build your site: `bundle exec jekyll serve`
+```
+$ bundle exec jekyll serve
+```
 
-### Using Core Files
+to serve the site. Now open `http://localhost:4000` in your browser to preview your changes.
 
-When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
+Once you are happy, push changes back to the repo and github will automatically rebuild the site
 
-1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
-2. Update the following configuration settings in your `_config.yml` file:
-   - `baseurl`
-   - `url`
-   - `title`
-   - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
-   - `description`
-   - `author`
-   - `twitter_username` (Optional)
-   - `facebook_username` (Optional)
-   - `github_username` (Optional)
-   - `linkedin_username` (Optional)
-3. Build your site: `bundle exec jekyll serve`
 
-## Bugs and Issues
+### Services
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+- Add services to `_config.yml`.
+- Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
+- If a service has an attribute `modal-id` it will pop up a page when user clicks on the logo
+- `description` contains the contents of this popup page, each item can be a paragraph or an image
 
-## About
+```yaml
+services:
+- name: Galaxy
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  icon: star
+  modal-id: 1
+  description:
+    - paragraph: blabla
+    - image: galaxy_logo.jpg
+    - paragraph: blabla again
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+- name: FAIR data
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  icon: laptop
+```
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+### Projects
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+- Add projects to `_config.yml`
+- Images should he placed in `img/projects/`
+- Thumbnail images should all be same ratio (400x290)
+- Clicking on a project will lead to a new page, from where we link out to the project homepage (`url` attribute)
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+```yaml
+projects:
+- title: MyFAIR
+  subtitle: FAIR data Galaxy integration
+  modal-id: 1
+  image: fairdata.png
+  thumbnail: fairdata_thumbnail.png
+  keywords: Galaxy, FAIR data, Web Development
+  url: https://github.com/ErasmusMC-Bioinformatics/myFAIR
+  description:
+    - paragraph: MyFAIR Analysis is a web application designed to allow scientists to create FAIR data, and to provide FAIR data analysis such that the “end to end” analysis complies with FAIR data principles. MyFAIR analysis is a python application and graphical user interface (GUI) that uses Galaxy2 for analytical workflows and B2DROP3(EUDAT) for FAIR data storage.  Our proof of concept to test myFAIR analysis uses the genome in a bottle trio-samples available form  galaxy training for genetic variation analysis.
+    - image: myfair.png
+```
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+### Publications
 
-## Copyright and License
+- Add new publications to the list in `_config.yml`.
+- Publications will be rendered in the order the appear in this file, please put them in in chronological order, with the newest at the top
+- Images should be placed in `/img/publications/` and named with the `pic` attribute, e.g. `img/publications/ega.png` for the example below
+- Use square images for best results
+- Possible attributes: pic, title, journal, url, day, month, year, abstract
+- Keep the abstract short (first couple sentences of full abstract or a custom description of paper); a `read more` link to the full article will be generated after this text.
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
+```yaml
+publications:
+- title: Integration of EGA secure data access into Galaxy
+  pic: ega.png
+  journal: F1000 Research
+  url: https://f1000research.com/articles/5-2841
+  abstract: High-throughput molecular profiling techniques are routinely generating vast amounts of data for translational medicine studies. Secure access controlled systems are needed to manage, store, transfer and distribute these data due to its personally identifiable nature. The European Genome-phenome Archive (EGA) was created to facilitate access and management to long-term archival of bio-molecular data.
+```
+
+### Team Members
+
+- Team members are listed in `_config.yml`
+- Corresponding images should be placed in `/img/team/` and named with the `pic` attribute so `img/team/andrew.jpg` in the following example
+- Use square image for the best results
+
+```yaml
+people:
+- name: Andrew Stubbs
+  pic: andrew.jpg
+  position: Dear Leader
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
+    - title: github
+      url: https://github.com/Andrew-EMC
+```
+
+### Collaborations
+
+This generates a bar of logos of collaborators. Logos should be placed in `img/logos`
+
+```yaml
+collaborations:
+- name: elixir
+  logo: elixir.png
+
+- name: dtl
+  logo: dtl.png
+```
+
+### Contact options
+
+Adds contact sections to bottom of page
+
+```yaml
+contact-options:
+- header: Visiting Address
+  text:
+    - line: Faculty Building
+    - line: Room Ee15.79
+    - line: Wytemaweg 80
+    - line: 3015CN Rotterdam
+    - line: The Netherlands
+  links:
+    - description: Route and Parking
+      url: https://www.erasmusmc.nl/overerasmusmc/bereikbaarheid/erasmusmc_ziekenhuis/?lang=en
+```
