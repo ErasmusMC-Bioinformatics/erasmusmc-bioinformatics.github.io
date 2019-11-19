@@ -1,20 +1,18 @@
 <!-- About Section -->
-<hr>
-<about>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <ul class="list-inline text-center">
-                    <h2 class="section-heading">{{ site.about-header }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.about-tagline }}</h3>
-                    <img src="img/{{ site.about-image }}" class="img-responsive img-circle" alt="">
-                    {% for p in site.about-text %}
-                        <p class="text-muted">
-                        {{ p.paragraph }}
-                        </p>
-                    {% endfor %}
-                </ul>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+                <h2 class="section-heading">{{ site.about-header }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.about-tagline }}</h3>
+                <img src="img/{{ site.about-image }}" class="img-responsive img-circle" alt="">
+                {% for p in site.about-text %}
+                <p class="text-muted">
+                    {{ p.paragraph }}
+                </p>
+                {% endfor %}
+            </ul>
         </div>
     </div>
-</about>
+    <hr>
+</div>

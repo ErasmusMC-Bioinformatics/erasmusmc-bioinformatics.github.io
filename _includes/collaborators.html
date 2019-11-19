@@ -1,15 +1,15 @@
-<collaborators>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-                <ul class="list-inline text-center">
-                    {% for collaborator in site.collaborations %}
-                        <a href="#">
-                            <img src="img/logos/{{ collaborator.logo }}" class="img-responsive img-centered" alt="{{ collaborator.name }}">
-                        </a>
-                    {% endfor %}
-                </ul>
-            </div>
+<!-- Collabortaors Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+                {% for collaborator in site.collaborations %}
+                <a href="{{ collaborator.logo_url }}">
+                    <img src="img/logos/{{ collaborator.logo }}" alt="{{ collaborator.name }}">
+                </a>
+                {% endfor %}
+            </ul>
         </div>
     </div>
-</collaborators>
+    <hr>
+</div>

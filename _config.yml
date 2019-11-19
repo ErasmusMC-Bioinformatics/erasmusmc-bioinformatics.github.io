@@ -27,14 +27,14 @@ collections:
 #      - ngs-methods.md
 #      - precision-medicine.md
   projects:
-    output: true
-    permalink: /:collection/:name
+#    output: true
+#    permalink: /:collection/:name
   publications:
-    output: true
+#    output: true
   team:
     order:
-      - andrew.md
-      - yunlei.md
+#      - andrew.md
+#      - yunlei.md
 
 #####################
 #  ABOUT
@@ -54,9 +54,11 @@ about-text:
 collaborations:
 - name: elixir
   logo: elixir.png
+  logo_url: "https://elixir-europe.org"
 
 - name: dtl
   logo: dtl.jpg
+  logo_url: "https://www.dtls.nl"
 
 
 ####################
