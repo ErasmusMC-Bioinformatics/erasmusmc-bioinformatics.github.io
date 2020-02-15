@@ -1,6 +1,5 @@
 ---
 name: Yunlei Li
-pic: yunlei.jpg
-position: Post-Doc
+position: Assistant Professor
 email: y.li1@erasmsumc.nl
 ---
