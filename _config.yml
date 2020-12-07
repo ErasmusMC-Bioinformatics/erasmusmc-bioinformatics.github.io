@@ -10,6 +10,7 @@ twitter_username:
 github_username:    ErasmusMC-Bioinformatics
 facebook_username:
 linkedin_username:
+instagram_username:
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
@@ -19,22 +20,10 @@ google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 collections:
   applications:
     output: true
-#    order:  # TODO: order tag not working, but should?
-#      - galaxy.md
-#      - fair-data.md
-#      - training.md
-#      - clinical-diagnostics.md
-#      - ngs-methods.md
-#      - precision-medicine.md
   projects:
-#    output: true
-#    permalink: /:collection/:name
+    output: true
   publications:
-#    output: true
   team:
-    order:
-#      - andrew.md
-#      - yunlei.md
 
 #####################
 #  ABOUT

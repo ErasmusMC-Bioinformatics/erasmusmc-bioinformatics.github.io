@@ -13,8 +13,7 @@ add any images to the appropriate subfolder in `./img/`
 install jekyll
 
 ```
-$ sudo apt-get install ruby-dev
-$ gem install jekyll
+$ sudo apt-get install ruby-bundler
 ```
 
 clone this repo and cd into the directory
@@ -22,6 +21,7 @@ clone this repo and cd into the directory
 ```
 $ git clone https://github.com/ErasmusMC-Bioinformatics/erasmusmc-bioinformatics.github.io.git
 $ cd erasmusmc-bioinformatics.github.io
+$ bundle install
 ```
 
 make your changes, and run
@@ -99,20 +99,22 @@ publications:
 
 ### Team Members
 
-- Team members are listed in `_config.yml`
-- Corresponding images should be placed in `/img/team/` and named with the `pic` attribute so `img/team/andrew.jpg` in the following example
+- Team members are listed in `_team`
+- Corresponding images should be placed in `/img/team/` and named with the `pic` attribute so `img/team/willem.png` in the following example
 - Use square image for the best results
 
 ```yaml
-people:
-- name: Andrew Stubbs
-  pic: andrew.jpg
-  position: Dear Leader
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/andrew-stubbs-036b0026/
-    - title: github
-      url: https://github.com/Andrew-EMC
+---
+name: Willem de Koning
+pic: willem.png
+position: PhD student
+email: w.dekoning.1@erasmusmc.nl
+github_username: willemdek11 (optional)
+linkedin_username: willemdek (optional)
+twitter_username: willemdek11 (optional)
+facebook_username: willemdek (optional)
+instagram_username: willemdek (optional)
+---
 ```
 
 ### Collaborations

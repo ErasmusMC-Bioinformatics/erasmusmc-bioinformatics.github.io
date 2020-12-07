@@ -1,10 +1,10 @@
 ---
 name: Willem de Koning
-pic: willem.jpg
+pic: willem.png
 position: PhD student
 email: w.dekoning.1@erasmusmc.nl
 github_username: willemdek11
 linkedin_username: willemdek
 twitter_username: willemdek11
-
+instagram_username: willemdek
 ---

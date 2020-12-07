@@ -53,6 +53,13 @@ background: '/img/bg-post.jpg'
                             </a>
                           </li>
                           {% endif %}
+                          {% if member.instagram_username %}
+                          <li class="list-inline-item">
+                            <a href="https://instagram.com/{{ member.instagram_username }}">
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                          </li>
+                          {% endif %}
                         </ul>
                     </div>
                 </div>
