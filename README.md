@@ -100,7 +100,7 @@ publications:
 ### Team Members
 
 - Team members are listed in `_team`
-- Corresponding images should be placed in `/img/team/` and named with the `pic` attribute so `img/team/andrew.jpg` in the following example
+- Corresponding images should be placed in `/img/team/` and named with the `pic` attribute so `img/team/willem.png` in the following example
 - Use square image for the best results
 
 ```yaml
