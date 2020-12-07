@@ -105,9 +105,9 @@ publications:
 
 ```yaml
 ---
-name: Andrew Stubbs
-pic: andrew.jpg
-position: Dear Leader
+name: Willem de Koning
+pic: willem.png
+position: PhD student
 email: w.dekoning.1@erasmusmc.nl
 github_username: willemdek11 (optional)
 linkedin_username: willemdek (optional)
