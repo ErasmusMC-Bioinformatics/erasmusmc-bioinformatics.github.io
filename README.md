@@ -35,28 +35,25 @@ to serve the site. Now open `http://localhost:4000` in your browser to preview y
 Once you are happy, push changes back to the repo and github will automatically rebuild the site
 
 
-### Services
+### Applications
 
-- Add services to `_config.yml`.
+- Add applications to `_applications`.
 - Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
-- If a service has an attribute `modal-id` it will pop up a page when user clicks on the logo
-- `description` contains the contents of this popup page, each item can be a paragraph or an image
 
-```yaml
-services:
-- name: Galaxy
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-  icon: star
-  modal-id: 1
-  description:
-    - paragraph: blabla
-    - image: galaxy_logo.jpg
-    - paragraph: blabla again
-
-- name: FAIR data
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-  icon: laptop
+```html
+---
+layout: application
+title: "Deep- and Machine- Learning"
+subtitle: "JUNIPER"
+icon: stethoscope
+author: "Andrew Stubbs"
+date: 2020-01-28 23:45:13 -0400
+background: '/img/bg-index.jpg'
+---
+<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p> 
 ```
+
+
 
 ### Projects
 
