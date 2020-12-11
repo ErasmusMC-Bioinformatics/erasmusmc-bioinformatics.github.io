@@ -1,7 +1,7 @@
 ---
 name: Youri Hoogstrate
 pic: youri.jpg
-position: PhD student
+position: Alumnus
 email: y.hoogstrate@erasmsumc.nl
 github_username: yhooogstrate
 ---
