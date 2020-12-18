@@ -1,7 +1,7 @@
 ---
-name: jie
+name: Jie
 pic: jie.jpg
-position: phd student
+position: PhD student
 email: j.ju@erasmsumc.nl
 github_username: jie-EMC
 linkedin_username: jie ju
