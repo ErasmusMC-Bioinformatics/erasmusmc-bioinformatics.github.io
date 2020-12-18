@@ -39,8 +39,6 @@ Once you are happy, push changes back to the repo and github will automatically 
 
 - Add applications to `_applications`.
 - Icon names should be from [fontaswesome](http://fontawesome.io/icons/)
-- Images go in
-- The text is given in HTML format
 
 ```html
 ---
@@ -51,8 +49,9 @@ icon: stethoscope
 author: "Andrew Stubbs"
 date: 2020-01-28 23:45:13 +0100
 ---
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p> 
-<p>A second paragraph goes here.</p>
+Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.
+
+A second paragraph goes here.
 ```
 
 ### Projects
