@@ -1,6 +1,6 @@
 ---
 name: Martin van Hemert
-pic: martin.jpg
+pic: martin.jpeg
 position: Intern
 email: m.vanhemert@erasmusmc.nl
 github_username: Hemert
