@@ -1,5 +1,5 @@
 ---
-name: Jie
+name: Jie Ju
 pic: jie.jpg
 position: PhD student
 email: j.ju@erasmsumc.nl
