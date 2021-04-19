@@ -12,6 +12,8 @@ background: '/img/bg-post.jpg'
                     <div class="team-member">
                         {% if member.pic %}
                         <img src="../img/team/{{ member.pic }}" class="img-responsive img-circle" alt="" height="200" width="200">
+                        {% elsif member.github_username %}
+                        <img src="https://github.com/{{ member.github_username }}.png" class="img-responsive img-circle" alt="" height="200" width="200">
                         {% else %}
                         <img src="../img/team/default.png" class="img-responsive img-circle" alt="" height="200" width="200">
                         {% endif %}
