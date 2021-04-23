@@ -1,6 +1,6 @@
 ---
 name: Shaoshi Zhang
-position: PhD candidate
+position: PhD student
 email: s.zhang@erasmusmc.nl
-github_username: StringofUnivese
+github_username: StringofUniverse
 ---
