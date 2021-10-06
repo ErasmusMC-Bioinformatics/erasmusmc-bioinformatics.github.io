@@ -19,7 +19,7 @@ title: EMC Galaxian
 
 
  <!-- Galaxy -->
- <a class="mcard" href="https://bioinf-galaxian.erasmusmc.nl/galaxy" target="_top">
+ <a class="mcard" href="https://bioinf-galaxy.erasmusmc.nl/galaxy" target="_top">
    <img class="card-img-top" src="{{site.baseurl}}/img/interactive/galaxy_logo.png" title="The EMC internal Galaxy server"/>
    <p class="textcard">EMC Galaxy</p>
  </a>
